@@ -1,0 +1,12 @@
+git init                  - Creates a new Git repository in the current folder.
+git add <file>            - Stages changes so they go into the next commit.
+git commit -m "msg"       - Saves the staged changes as a commit with a message.
+git branch feature        - Creates a new branch named feature.
+git checkout <branch>     - Switches to the given branch.
+git merge --no-ff feature - Merges feature into the current branch with a merge commit.
+git log --oneline --graph --all - Shows the commit history as a graph across all branches.
+git status                - Shows changed, staged and untracked files.
+git revert HEAD           - Undoes the last commit by adding a new commit that reverses it.
+git remote add origin <url> - Links the local repo to a GitHub repo.
+git remote -v             - Lists the connected remote repositories.
+git push -u origin main   - Uploads main to GitHub and sets it as the default upstream.
